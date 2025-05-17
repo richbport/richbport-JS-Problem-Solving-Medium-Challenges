@@ -1,5 +1,5 @@
-function filterOutFalsy(elem1, elem2) {
-    return !elem1 ? elem1 : elem2;
+function arrLength(arr) {
+  return arr.length;
 }
 
-console.log(filterOutFalsy(true, 'Dog'))
+console.log(arrLength([1, 2, 3, 4]));
