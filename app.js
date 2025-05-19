@@ -1,5 +1,7 @@
-function lastElem(arr) {
-  return arr[arr.length - 1];
+function arrSum(arr) {
+  for (let i = 0; i < 3; ++i) {
+    console.log("run this code");
+  }
 }
 
-console.log(lastElem([0, 1, 2, 3, 50]));
+console.log(arrSum([2, 2, 2]));
