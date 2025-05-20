@@ -1,9 +1,6 @@
-function progressiveSum(num) {
-  let sum = 0;
-  for (let i = 1; i <= num; ++i) {
-    sum = sum + i;
-  }
-  return sum;
+function calcTime(seconds) {
+  let timerMinutes = Math.floor(seconds / 60);
+  let timerSeconds = seconds % 60;
 }
 
-console.log(progressiveSum(4));
+console.log(calcTime(50));
