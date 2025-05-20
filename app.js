@@ -1,9 +1,8 @@
-function arrSum(arr) {
+function progressiveSum(num) {
   let sum = 0;
-  for (let i = 0; i < arr.length - 1; ++i) {
-    sum = sum + arr[i];
+  for (let i = 0; i < num; ++i) {
+    console.log(i)
   }
-  return sum;
 }
 
-console.log(arrSum([2, 2, 2]));
+console.log(progressiveSum(3));
