@@ -2,7 +2,11 @@ function calcTime(seconds) {
   let timerMinutes = Math.floor(seconds / 60);
   let timerSeconds = seconds % 60;
 
-return '0' + timerMinutes + ':' + timerSeconds;
+  if (timerMinutes.toString().length === 1) {
+    timerMinutes = "0" + timerMinutes;
+  }
+
+  return timerMinutes + ":" + timerSeconds;
 }
 
-console.log(calcTime(50000));
+console.log(calcTime(500));
