@@ -1,9 +1,9 @@
 function reverseString(str) {
   let reversedString = "";
-  for (let i = str.length; i >= 0; --i) {
-    console.log(str[i]);
+  for (let i = str.length - 1; i >= 0; --i) {
+    reversedString += str[i];
   }
-  return null;
+  return reversedString;
 }
 
 console.log(reverseString("abc"));
