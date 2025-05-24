@@ -1,11 +1,5 @@
 function removeApples(arr) {
-  let noApples = [];
-  for (let i = 0; i < arr.length; ++i) {
-    if (arr[i] !== "Apple") {
-      noApples.push(arr[i]);
-    }
-  }
-  return noApples;
+  return arr.filter(elem => elem !== 'Apple')
 }
 
 console.log(removeApples(["Banana", "Orange", "Apple"]));
