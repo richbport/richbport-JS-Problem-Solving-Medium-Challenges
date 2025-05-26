@@ -1,5 +1,9 @@
 function filterOutFalsy(arr) {
-  return arr.filter((elem) => elem === "Apple")
+    let truthyArr = []
+    for (let i = 0; i < arr.length; ++i) {
+        console.log(arr[i])
+    }
+  
 }
 
-console.log(filterOutFalsy(["Banana", "Apple", "Orange", "Apple", [], 0]));
+console.log(filterOutFalsy(["", NaN, 500, undefined, null, false, 0]));
