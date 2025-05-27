@@ -1,5 +1,5 @@
-function filterOutFalsy(arr) {
-  return arr.filter(elem => !!elem);
+function convertToBoolean(arr) {
+    return arr.map(elem => !!elem)
 }
 
-console.log(filterOutFalsy(["", NaN, 500, undefined, null, false, 0, "0"]));
+console.log(convertToBoolean([500, 0, "David", "", []]));
