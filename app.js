@@ -1,5 +1,6 @@
-function convertToBoolean(arr) {
-  return arr.map((elem) => !!elem);
+function showRating(rating) {
+// return rating
+console.log(rating)
 }
 
-console.log(convertToBoolean([500, 0, NaN, "David", "", []]));
+console.log(showRating(4));
